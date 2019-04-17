@@ -107,7 +107,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(white, rgba(255, 255, 255, 0.5));
+  background: -webkit-linear-gradient(#004d00, rgba(0, 128, 0, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -155,7 +155,7 @@
     height: 260px;
   }
   .masthead .spacer-sm {
-    height: 70px;
+    height: 0px;
   }
 }
 

@@ -17,10 +17,10 @@
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
-    background: #004d00;
     background: -webkit-linear-gradient(#004d00, fade-out(#004d00, .5));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    color: #004d00;
   }
   h2 {
     font-family: $body-font;
@@ -28,9 +28,10 @@
     font-size: 1.2rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
-    background: #ffffff;
+    background: -webkit-linear-gradient(#ffffff, fade-out(#ffffff, .5));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    color: #ffffff;
   }
   // h2 {
   //   max-width: 20rem;

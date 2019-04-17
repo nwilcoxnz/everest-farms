@@ -1,0 +1,69 @@
+@import 'variables.scss';
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url('../img/bg-masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-family: $body-font;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(white, fade-out(white, .5));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  h2 {
+    font-family: $body-font;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  // h2 {
+  //   max-width: 20rem;
+  //   font-size: 1rem;
+  // }
+  .spacer {
+    height: 90px;
+  }
+  .spacer-sm {
+    height: 50px;
+  }
+  @media(min-width: 768px) {
+    h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  @media(min-width: 1200px) {
+    height: 100vh;
+    padding: 0;
+    h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    h2 {
+      // max-width: 40rem;
+      font-size: 2.5rem;
+    }
+    .spacer {
+      height: 260px;
+    }
+    .spacer-sm {
+      height: 70px;
+    }
+  }
+}

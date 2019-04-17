@@ -1,0 +1,13 @@
+.about-section {
+  padding-top: 10rem;
+  // background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  background: $black;
+  p, .btn {
+    margin-bottom: 4rem;
+  }
+
+}
+
+.cow {
+  margin-top: -120px;
+}

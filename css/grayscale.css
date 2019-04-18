@@ -107,10 +107,9 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(#004d00, rgba(0, 77, 0, 0.5));
+  background: -webkit-linear-gradient(#004d00, rgba(0, 128, 0, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  color: #004d00;
 }
 
 .masthead h2 {
@@ -119,10 +118,9 @@
   font-size: 1.2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(#ffffff, rgba(255, 255, 255, 0.5));
+  background: -webkit-linear-gradient(#ffffff, rgba(255, 255, 255, 0.9));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  color: #ffffff;
 }
 
 .masthead .spacer {
